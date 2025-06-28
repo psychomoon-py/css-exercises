@@ -8,9 +8,33 @@ img {
 }
 
 .title {
+  display:flex;
+  justify-content:center;
   font-size: 36px;
   font-weight: 900;
+  padding:32px;
 }
+
+.plantsndescriptions{
+display:flex;
+flex-direction:row;
+gap:52px;
+padding:52px;
+align-items:center;
+justify-content:space-between;
+}
+
+.barberry,
+.chili,
+.pepper,
+.saffron{
+display:flex;
+width:200px;
+flex-wrap:wrap;
+justify-content:center;
+margin:52px;
+}
+
 
 /* do not edit this footer */
 .footer {

@@ -8,19 +8,32 @@ body {
   font-family: Besley, serif;
 }
 
+
 .header {
+  display:flex;
+  gap:16px;	
+  padding:8px;
+  justify-content:flex end;
+  align-items:center;
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
+
 }
+
+.left{
+display:flex;
+}
+
 
 .profile-image {
   background: rebeccapurple;
   box-shadow: inset 2px 2px 4px rgba(0,0,0,.5);
   border-radius: 50%;
   width: 48px;
-  height: 48px;
+  height:  48px;
 }
+
 
 .logo {
   color: rebeccapurple;
@@ -29,12 +42,24 @@ body {
   font-style: italic;
 }
 
+
+.right{
+display:flex;
+flex-direction:row;
+gap:16px;
+/* I added this property/value pair because margin-left:auto; will push the item it is assigned as far possible to the right*/
+margin-left:auto;
+}
+
+
 button {
   border: none;
   border-radius: 8px;
   background: rebeccapurple;
   color: white;
   padding: 8px 24px;
+  display:flex;
+
 }
 
 a {
@@ -45,4 +70,8 @@ a {
 
 ul {
   list-style-type: none;
+display:flex;
+gap:8px;
+align-items:start;
+justify-content:start;
 }

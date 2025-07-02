@@ -34,9 +34,6 @@ body {
 }
 
 .header{
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
   font-size: 18px;
   font-weight: 700;
   margin-bottom: 8px;
@@ -55,6 +52,11 @@ body {
   justify-content: center;
   flex-shrink:0;
 }
+.heading{
+display:flex;
+justify-content:space-between;	
+}
+
 
 .close-button {
   background: #eee;
@@ -68,6 +70,16 @@ body {
   align-items: center;
   justify-content: center;
   border: 1px solid #eee;
+}
+
+.text{
+margin-bottom:16px;
+}
+
+
+.buttons{
+display:flex;
+gap:5px;
 }
 
 button {
